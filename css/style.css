@@ -38,6 +38,7 @@ footer {
     text-align: center;
     padding: 20px;
 }
+
 nav {
     display: inline-block;
     width: 80%;
@@ -45,6 +46,7 @@ nav {
     padding: 15px;
 }
 
+/* Logo trong nav rộng 10% */
 nav img {
     width: 10%;
 }
@@ -55,19 +57,29 @@ nav img {
     align-items: center;
     row-gap: 20px;
 }
+
 .grid img {
     width: 100%;
 }
+
 .flex {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    row-gap: 20px;
 }
+
+.flex img {
+    width: 45%;
+    height: auto;
+}
+
 a[href="#main-content"] {
     color: #0055cc !important;
     font-weight: bold;
     padding: 5px;
 }
+
 nav a, footer a {
     color: #ffffff !important;
     font-weight: bold;
@@ -77,6 +89,7 @@ nav a, footer a {
 nav a:hover, footer a:hover {
     text-decoration: underline;
 }
+
 main a {
     color: #0055cc !important;
     text-decoration: none;
@@ -85,6 +98,7 @@ main a {
 main a:hover {
     text-decoration: underline;
 }
+
 footer p {
     color: #ffffff !important;
     font-weight: normal;
